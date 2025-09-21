@@ -10,13 +10,27 @@ I thrive on solving complex problems and believe in the power of continuous lear
 
 ## 🚀 Featured Projects
 
-| Project                                                                                                | Description                                                                                                                                                                                          | Tech Stack                                                                    |
-| ------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
-| 🧑‍🏫 **[Cipta Ajar AI](https://github.com/denasurya/Cita-Ajar-demo-01)** |**[➡️ LIVE DEMO ⬅️](https://ciptaajar-denasurya.vercel.app)** | A smart web app for Indonesian educators to auto-generate complete teaching materials (modules, worksheets, HOTS-focused questions) in minutes using the Gemini 1.5 Pro API.                                    | `Next.js` `React` `Tailwind CSS` `Gemini API` `Vercel`                        |
-| 🗣️ **[VOCALITY - Voice Training](https://github.com/denasurya/vocality-ai-voice-training)** | An interactive AI-powered app for English speaking practice. Features dual modes (reading & image description) with real-time feedback and comprehensive scoring from the Gemini API. | `HTML5` `CSS3` `JavaScript` `Gemini API` `MediaRecorder API` `Vercel`         |
-| 🖼️ **[Java Nocturnals NFT Gallery (Full-Stack dApp)](https://github.com/denasurya/java-nocturnals-gallery)** |**[➡️ LIVE DEMO ⬅️](https://java-nocturnals-gallery.vercel.app)** |An end-to-end NFT project featuring a 9-piece collection of AI-generated art. Includes a professional ERC721 smart contract and a custom dApp gallery to view the on-chain assets.              | `Solidity` `Hardhat` `React` `TypeScript` `Ethers.js` `IPFS` `AI`               |
+### 🖼️ Java Nocturnals NFT Gallery (Full-Stack dApp)
+- **Deskripsi:** Sebuah proyek NFT end-to-end yang menampilkan koleksi 9 karya seni hasil AI. Dibangun dengan smart contract ERC721 yang profesional dan sebuah dApp galeri kustom untuk menampilkan aset on-chain.
+- **Tech Stack:** `Solidity`, `Hardhat`, `React`, `TypeScript`, `Ethers.js`, `IPFS`, `AI`
+- **[➡️ LIHAT LIVE DEMO ⬅️](java-nocturnals-gallery.vercel.app)**
+- **[Lihat Kode Frontend](https://github.com/denasurya/java-nocturnals-gallery)** | **[Lihat Kode Smart Contract](https://github.com/denasurya/java-nocturnals-contract)**
 
 ---
+
+### 🧑‍🏫 Cipta Ajar AI
+- **Deskripsi:** Sebuah aplikasi web cerdas untuk para pendidik di Indonesia yang dapat secara otomatis menghasilkan materi ajar lengkap (modul, LPKD, soal HOTS) dalam hitungan menit menggunakan Gemini 1.5 Pro API.
+- **Tech Stack:** `Next.js`, `React`, `Tailwind CSS`, `Gemini API`
+- **[➡️ LIHAT LIVE DEMO ⬅️](ciptaajar-denasurya.vercel.app)**
+- **[Lihat Kode](https://github.com/denasurya/Cita-Ajar-demo-01)**
+
+---
+
+### 🗣️ VOCALITY - AI Voice Training
+- **Deskripsi:** Sebuah aplikasi web interaktif berbasis AI untuk melatih kemampuan berbicara Bahasa Inggris. Memiliki dua mode latihan (membaca & deskripsi gambar) dengan penilaian komprehensif dari Gemini API.
+- **Tech Stack:** `HTML5`, `CSS3`, `JavaScript`, `Gemini API`, `MediaRecorder API`
+- **[➡️ LIHAT LIVE DEMO ⬅️]([MASUKKAN_LINK_VERCEL_VOCALITY_DI_SINI])**
+- **[Lihat Kode](https://github.com/denasurya/vocality-ai-voice-training)**
 
 ## 🛠️ My Tech Stack
 
