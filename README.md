@@ -28,8 +28,13 @@ I thrive on solving complex problems and believe in the power of continuous lear
 ---
 
 ### 🗣️ VOCALITY - AI Voice Training
-- **Deskripsi:** Sebuah aplikasi web interaktif berbasis AI untuk melatih kemampuan berbicara Bahasa Inggris. Memiliki dua mode latihan (membaca & deskripsi gambar) dengan penilaian komprehensif dari Gemini API.
-- **Tech Stack:** `HTML5`, `CSS3`, `JavaScript`, `Gemini API`, `MediaRecorder API`
+- **Deskripsi:** Sebuah aplikasi web interaktif yang dirancang untuk membantu siswa melatih kemampuan berbicara Bahasa Inggris. Aplikasi ini menggunakan **arsitektur yang aman** di mana kunci API Google Gemini tidak pernah terekspos di *frontend*. Semua permintaan ke AI diproses melalui *serverless function* yang aman di Vercel.
+- **Fitur Utama:**
+    - **Mode Latihan Ganda:** "Reading Practice" untuk kelancaran membaca dan "Image Description" untuk berbicara spontan.
+    - **Konten Dinamis:** Naskah dan gambar untuk latihan dibuat secara *real-time* oleh Google Gemini API.
+    - **Penilaian Komprehensif:** AI memberikan skor dan umpan balik mendalam terhadap rekaman suara pengguna, mencakup aspek seperti pelafalan, tata bahasa, dan kosa kata.
+    - **Benchmark Audio:** Pengguna bisa mendengarkan pelafalan yang benar dari naskah dengan kecepatan yang bisa diatur, ditenagai oleh Web Speech API.
+- **Tech Stack:** `HTML5`, `CSS3`, `JavaScript (ES6+)`, `Vercel Serverless Functions`, `Gemini API`, `MediaRecorder API`
 - **[➡️ LIHAT LIVE DEMO ⬅️](https://vocality-ai-voice-training.vercel.app/)**
 - **[Lihat Kode](https://github.com/denasurya/vocality-ai-voice-training)**
 
