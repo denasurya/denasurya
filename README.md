@@ -14,7 +14,7 @@ I thrive on solving complex problems and believe in the power of continuous lear
 - **Deskripsi:** Sebuah proyek NFT end-to-end yang menampilkan koleksi 9 karya seni hasil AI. Dibangun dengan smart contract ERC721 yang profesional dan sebuah dApp galeri kustom untuk menampilkan aset on-chain.
 - **Tech Stack:** `Solidity`, `Hardhat`, `React`, `TypeScript`, `Ethers.js`, `IPFS`, `AI`
 - **[➡️ LIHAT LIVE DEMO ⬅️](https://java-nocturnals-gallery.vercel.app/)**
-- **[Lihat Koleksi di Rarible]((https://testnet.rarible.com/denasurya))**
+- **[Lihat Koleksi di Rarible](https://testnet.rarible.com/denasurya)**
 - **[Lihat Kode Frontend](https://github.com/denasurya/java-nocturnals-gallery)** | **[Lihat Kode Smart Contract](https://github.com/denasurya/java-nocturnals-contract)**
 
 ---
