@@ -13,7 +13,7 @@ I thrive on solving complex problems and believe in the power of continuous lear
 ### 🖼️ Java Nocturnals NFT Gallery (Full-Stack dApp)
 - **Deskripsi:** Sebuah proyek NFT end-to-end yang menampilkan koleksi 9 karya seni hasil AI. Dibangun dengan smart contract ERC721 yang profesional dan sebuah dApp galeri kustom untuk menampilkan aset on-chain.
 - **Tech Stack:** `Solidity`, `Hardhat`, `React`, `TypeScript`, `Ethers.js`, `IPFS`, `AI`
-- **[➡️ LIHAT LIVE DEMO ⬅️](java-nocturnals-gallery.vercel.app)**
+- **[➡️ LIHAT LIVE DEMO ⬅️](https://java-nocturnals-gallery.vercel.app/)**
 - **[Lihat Kode Frontend](https://github.com/denasurya/java-nocturnals-gallery)** | **[Lihat Kode Smart Contract](https://github.com/denasurya/java-nocturnals-contract)**
 
 ---
@@ -21,7 +21,7 @@ I thrive on solving complex problems and believe in the power of continuous lear
 ### 🧑‍🏫 Cipta Ajar AI
 - **Deskripsi:** Sebuah aplikasi web cerdas untuk para pendidik di Indonesia yang dapat secara otomatis menghasilkan materi ajar lengkap (modul, LPKD, soal HOTS) dalam hitungan menit menggunakan Gemini 1.5 Pro API.
 - **Tech Stack:** `Next.js`, `React`, `Tailwind CSS`, `Gemini API`
-- **[➡️ LIHAT LIVE DEMO ⬅️](ciptaajar-denasurya.vercel.app)**
+- **[➡️ LIHAT LIVE DEMO ⬅️](https://ciptaajar-denasurya.vercel.app/)**
 - **[Lihat Kode](https://github.com/denasurya/Cita-Ajar-demo-01)**
 
 ---
