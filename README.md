@@ -11,7 +11,12 @@ I thrive on solving complex problems and believe in the power of continuous lear
 ## 🚀 Featured Projects
 
 ### 🖼️ Java Nocturnals NFT Gallery (Full-Stack dApp)
-- **Deskripsi:** Sebuah proyek NFT end-to-end yang menampilkan koleksi 9 karya seni hasil AI. Dibangun dengan smart contract ERC721 yang profesional dan sebuah dApp galeri kustom untuk menampilkan aset on-chain.
+- **Deskripsi:** Sebuah proyek NFT end-to-end yang menampilkan koleksi 9 karya seni hasil AI dengan tema fauna nokturnal Jawa dalam estetika Neon-Punk. Proyek ini mencakup seluruh siklus pengembangan Web3, mulai dari pembuatan aset digital, penulisan smart contract, hingga pembangunan dApp frontend yang interaktif untuk menampilkan aset on-chain.
+- **Fitur Utama:**
+    - **Smart Contract Profesional (ERC721):** Dibangun dengan Solidity dan OpenZeppelin, di-deploy di jaringan tes Sepolia. Memiliki fitur Ownable (hanya pemilik yang bisa mint) dan baseURI yang bisa diubah untuk metadata.
+    - **Aset Generatif AI:** Karya seni diciptakan dengan Leonardo AI, sementara metadata (nama & deskripsi) dibuat secara otomatis menggunakan Python dan Google Gemini API.
+    - **Frontend Interaktif (dApp):** Galeri yang dibangun dengan React & TypeScript yang terhubung langsung ke blockchain. Mampu menampilkan koleksi NFT secara dinamis dengan memanggil data dari smart contract dan IPFS..
+    - **Penyimpanan Terdesentralisasi:** emua gambar dan metadata NFT diunggah dan disajikan melalui IPFS (via Pinata) untuk memastikan ketersediaan data yang permanen.
 - **Tech Stack:** `Solidity`, `Hardhat`, `React`, `TypeScript`, `Ethers.js`, `IPFS`, `AI`
 - **[➡️ LIHAT LIVE DEMO ⬅️](https://java-nocturnals-gallery.vercel.app/)**
 - **[Lihat Koleksi di Rarible](https://testnet.rarible.com/denasurya)**
@@ -20,7 +25,11 @@ I thrive on solving complex problems and believe in the power of continuous lear
 ---
 
 ### 🧑‍🏫 Cipta Ajar AI
-- **Deskripsi:** Sebuah aplikasi web cerdas untuk para pendidik di Indonesia yang dapat secara otomatis menghasilkan materi ajar lengkap (modul, LPKD, soal HOTS) dalam hitungan menit menggunakan Gemini 1.5 Pro API.
+- **Deskripsi:** Sebuah aplikasi web cerdas yang dirancang sebagai asisten AI untuk para pendidik di Indonesia. Proyek ini bertujuan untuk secara drastis mengurangi waktu administrasi guru dengan mengotomatiskan pembuatan perangkat ajar yang kompleks dan sesuai dengan kurikulum Deep Learning.
+- **Fitur Utama:**
+    - **Generasi Perangkat Ajar Lengkap:** Mampu menghasilkan 4 jenis dokumen krusial: Materi Pengayaan Guru, Modul Ajar terstruktur, Lembar Kerja Peserta Didik (LKPD), dan Bank Soal.
+    - **Input Dinamis & Kustomisasi:** Pengguna dapat menyesuaikan output secara detail berdasarkan jenjang (SD, SMP, SMA/SMK), kelas, mata pelajaran, topik, hingga alokasi Jam Pelajaran (JP) yang akurat.
+    - **Antarmuka Profesional:** Dibangun dengan UI/UX yang bersih, dilengkapi notifikasi elegan dan fitur praktis seperti "Salin Teks" dan "Download" untuk setiap dokumen.
 - **Tech Stack:** `Next.js`, `React`, `Tailwind CSS`, `Gemini API`
 - **[➡️ LIHAT LIVE DEMO ⬅️](https://ciptaajar-denasurya.vercel.app/)**
 - **[Lihat Kode](https://github.com/denasurya/Cita-Ajar-demo-01)**
