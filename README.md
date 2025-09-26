@@ -11,41 +11,41 @@ I thrive on solving complex problems and believe in the power of continuous lear
 ## 🚀 Featured Projects
 
 ### 🖼️ Java Nocturnals NFT Gallery (Full-Stack dApp)
-- **Deskripsi:** Sebuah proyek NFT end-to-end yang menampilkan koleksi 9 karya seni hasil AI dengan tema fauna nokturnal Jawa dalam estetika Neon-Punk. Proyek ini mencakup seluruh siklus pengembangan Web3, mulai dari pembuatan aset digital, penulisan smart contract, hingga pembangunan dApp frontend yang interaktif untuk menampilkan aset on-chain.
-- **Fitur Utama:**
-    - **Smart Contract Profesional (ERC721):** Dibangun dengan Solidity dan OpenZeppelin, di-deploy di jaringan tes Sepolia. Memiliki fitur Ownable (hanya pemilik yang bisa mint) dan baseURI yang bisa diubah untuk metadata.
-    - **Aset Generatif AI:** Karya seni diciptakan dengan Leonardo AI, sementara metadata (nama & deskripsi) dibuat secara otomatis menggunakan Python dan Google Gemini API.
-    - **Frontend Interaktif (dApp):** Galeri yang dibangun dengan React & TypeScript yang terhubung langsung ke blockchain. Mampu menampilkan koleksi NFT secara dinamis dengan memanggil data dari smart contract dan IPFS..
-    - **Penyimpanan Terdesentralisasi:** emua gambar dan metadata NFT diunggah dan disajikan melalui IPFS (via Pinata) untuk memastikan ketersediaan data yang permanen.
+- **Description:** This project delivers an end-to-end NFT collection of nine AI-generated artworks, each depicting Javanese nocturnal fauna in a distinctive Neon-Punk style. This project covers the entire Web3 development cycle, from digital asset creation and smart contract writing to building an interactive frontend dApp to display the on-chain assets.
+- **Key Features:**
+    - **Professional Smart Contract (ERC721):** Built with Solidity and OpenZeppelin, deployed on the Sepolia test network. Features include Ownable (only the owner can mint) and a mutable baseURI for metadata.
+    - **Generative AI Assets:** The artwork was created with Leonardo AI, while the metadata (names & descriptions) was automatically generated using Python and the Google Gemini API.
+    - **Interactive Frontend (dApp):** A gallery built with React & TypeScript that connects directly to the blockchain, capable of dynamically displaying the NFT collection by fetching data from the smart contract and IPFS.
+    - **Decentralized Storage:** All NFT images and metadata are uploaded and served via IPFS (through Pinata) to ensure permanent data availability.
 - **Tech Stack:** `Solidity`, `Hardhat`, `React`, `TypeScript`, `Ethers.js`, `IPFS`, `AI`
-- **[➡️ LIHAT LIVE DEMO ⬅️](https://java-nocturnals-gallery.vercel.app/)**
-- **[Lihat Koleksi di Rarible](https://testnet.rarible.com/denasurya)**
-- **[Lihat Kode Frontend](https://github.com/denasurya/java-nocturnals-gallery)** | **[Lihat Kode Smart Contract](https://github.com/denasurya/java-nocturnals-contract)**
+- **[➡️ LIVE DEMO ⬅️](https://java-nocturnals-gallery.vercel.app/)**
+- **[Rarible](https://testnet.rarible.com/denasurya)**
+- **[Frontend Code](https://github.com/denasurya/java-nocturnals-gallery)** | **[Smart Contract Code](https://github.com/denasurya/java-nocturnals-contract)**
 
 ---
 
 ### 🧑‍🏫 Cipta Ajar AI
-- **Deskripsi:** Sebuah aplikasi web cerdas yang dirancang sebagai asisten AI untuk para pendidik di Indonesia. Proyek ini bertujuan untuk secara drastis mengurangi waktu administrasi guru dengan mengotomatiskan pembuatan perangkat ajar yang kompleks dan sesuai dengan kurikulum Deep Learning.
-- **Fitur Utama:**
-    - **Generasi Perangkat Ajar Lengkap:** Mampu menghasilkan 4 jenis dokumen krusial: Materi Pengayaan Guru, Modul Ajar terstruktur, Lembar Kerja Peserta Didik (LKPD), dan Bank Soal.
-    - **Input Dinamis & Kustomisasi:** Pengguna dapat menyesuaikan output secara detail berdasarkan jenjang (SD, SMP, SMA/SMK), kelas, mata pelajaran, topik, hingga alokasi Jam Pelajaran (JP) yang akurat.
-    - **Antarmuka Profesional:** Dibangun dengan UI/UX yang bersih, dilengkapi notifikasi elegan dan fitur praktis seperti "Salin Teks" dan "Download" untuk setiap dokumen.
+- **Description:** An intelligent web application designed as an AI assistant for educators in Indonesia. This project aims to drastically reduce teachers' administrative workload by automating the creation of complex, curriculum-compliant teaching materials.
+- **Key Features:**
+    - **Complete Teaching Material Generation:** Capable of generating 4 crucial types of documents: Teacher Enrichment Materials, structured Teaching Modules, Student Worksheets, and Question Banks.
+    - **Dynamic & Customizable Input:** Users can customize the output in detail based on the educational level (Elementary, Junior High, High School/Vocational), grade, subject, topic, and even precise lesson hour allocations.
+    - **Professional Interface:** Built with a clean UI/UX, featuring elegant notifications and practical features like "Copy Text" and "Download" for each document.
 - **Tech Stack:** `Next.js`, `React`, `Tailwind CSS`, `Gemini API`
-- **[➡️ LIHAT LIVE DEMO ⬅️](https://ciptaajar-denasurya.vercel.app/)**
-- **[Lihat Kode](https://github.com/denasurya/Cita-Ajar-demo-01)**
+- **[➡️ LIVE DEMO ⬅️](https://ciptaajar-denasurya.vercel.app/)**
+- **[View Code](https://github.com/denasurya/Cita-Ajar-demo-01)**
 
 ---
 
 ### 🗣️ VOCALITY - AI Voice Training
-- **Deskripsi:** Sebuah aplikasi web interaktif yang dirancang untuk membantu siswa melatih kemampuan berbicara Bahasa Inggris. Aplikasi ini menggunakan **arsitektur yang aman** di mana kunci API Google Gemini tidak pernah terekspos di *frontend*. Semua permintaan ke AI diproses melalui *serverless function* yang aman di Vercel.
-- **Fitur Utama:**
-    - **Mode Latihan Ganda:** "Reading Practice" untuk kelancaran membaca dan "Image Description" untuk berbicara spontan.
-    - **Konten Dinamis:** Naskah dan gambar untuk latihan dibuat secara *real-time* oleh Google Gemini API.
-    - **Penilaian Komprehensif:** AI memberikan skor dan umpan balik mendalam terhadap rekaman suara pengguna, mencakup aspek seperti pelafalan, tata bahasa, dan kosa kata.
-    - **Benchmark Audio:** Pengguna bisa mendengarkan pelafalan yang benar dari naskah dengan kecepatan yang bisa diatur, ditenagai oleh Web Speech API.
+- **Description:** An interactive web application to improve English speaking skills using AI, tailored for junior high school students. This application uses a secure architecture where the Google Gemini API key is never exposed on the frontend. All AI requests are processed through a secure serverless function on Vercel.
+- **Key Features:**
+    - **Dual Practice Modes:** "Reading Practice" for fluency and "Image Description" for spontaneous speaking.
+    - **Dynamic Content:** Practice texts and images are generated in real-time by the Google Gemini API.
+    - **Comprehensive Assessment:** The AI provides a score and in-depth feedback on the user's voice recording, covering aspects like pronunciation, grammar, and vocabulary.
+    - **Audio Benchmark:** Users can listen to the correct pronunciation of the text at an adjustable speed, powered by the Web Speech API.
 - **Tech Stack:** `HTML5`, `CSS3`, `JavaScript (ES6+)`, `Vercel Serverless Functions`, `Gemini API`, `MediaRecorder API`
-- **[➡️ LIHAT LIVE DEMO ⬅️](https://vocality-ai-voice-training.vercel.app/)**
-- **[Lihat Kode](https://github.com/denasurya/vocality-ai-voice-training)**
+- **[➡️ LIVE DEMO ⬅️](https://vocaliti-final.vercel.app/)**
+- **[View Code](https://github.com/denasurya/vocaliti-final)**
 
 ## 🛠️ My Tech Stack
 
