@@ -44,7 +44,7 @@ I thrive on solving complex problems and believe in the power of continuous lear
     - **Comprehensive Assessment:** The AI provides a score and in-depth feedback on the user's voice recording, covering aspects like pronunciation, grammar, and vocabulary.
     - **Audio Benchmark:** Users can listen to the correct pronunciation of the text at an adjustable speed, powered by the Web Speech API.
 - **Tech Stack:** `HTML5`, `CSS3`, `JavaScript (ES6+)`, `Vercel Serverless Functions`, `Gemini API`, `MediaRecorder API`
-- **[➡️ LIVE DEMO ⬅️](https://vocaliti-final.vercel.app/)**
+- **[➡️ LIVE DEMO ⬅️](https://vocality-training.vercel.app/)**
 - **[View Code](https://github.com/denasurya/vocaliti-final)**
 
 ## 🛠️ My Tech Stack
