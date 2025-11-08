@@ -1,64 +1,56 @@
-### Hi, I'm Dena Surya Gumilah 👋
+### Dena Surya Gumilah 👋
 
-#### Educator turned Full-Stack AI & Web3 Developer
+#### Product Lead | Ai & Edutech Specialist
 
-I'm an educator from Indonesia with a background in Informatics who is passionate about building technology that empowers people. My journey has led me to explore the intersection of **Artificial Intelligence** and **Web3**, where I focus on creating intelligent, decentralized applications from concept to deployment.
-
-I thrive on solving complex problems and believe in the power of continuous learning. Below are my featured projects, all built from scratch.
+Visioner Produk dengan latar belakang Pendidik. Berpengalaman memimpin 2 produk AI Edutech (Cipta Ajar AI & VOCALITY) dari ide hingga validasi dampak. Saat ini mencari peran di tim Produk Edutech untuk membangun solusi yang berdampak nyata bagi pendidikan.
 
 ---
 
-## 🚀 Featured Projects
-
-### 🖼️ Java Nocturnals NFT Gallery (Full-Stack dApp)
-- **Description:** This project delivers an end-to-end NFT collection of nine AI-generated artworks, each depicting Javanese nocturnal fauna in a distinctive Neon-Punk style. This project covers the entire Web3 development cycle, from digital asset creation and smart contract writing to building an interactive frontend dApp to display the on-chain assets.
-- **Key Features:**
-    - **Professional Smart Contract (ERC721):** Built with Solidity and OpenZeppelin, deployed on the Sepolia test network. Features include Ownable (only the owner can mint) and a mutable baseURI for metadata.
-    - **Generative AI Assets:** The artwork was created with Leonardo AI, while the metadata (names & descriptions) was automatically generated using Python and the Google Gemini API.
-    - **Interactive Frontend (dApp):** A gallery built with React & TypeScript that connects directly to the blockchain, capable of dynamically displaying the NFT collection by fetching data from the smart contract and IPFS.
-    - **Decentralized Storage:** All NFT images and metadata are uploaded and served via IPFS (through Pinata) to ensure permanent data availability.
-- **Tech Stack:** `Solidity`, `Hardhat`, `React`, `TypeScript`, `Ethers.js`, `IPFS`, `AI`
-- **[➡️ LIVE DEMO ⬅️](https://java-nocturnals-gallery.vercel.app/)**
-- **[Rarible](https://testnet.rarible.com/denasurya)**
-- **[Frontend Code](https://github.com/denasurya/java-nocturnals-gallery)** | **[Smart Contract Code](https://github.com/denasurya/java-nocturnals-contract)**
-
----
+## 🚀 PROYEK UNGGULAN
 
 ### 🧑‍🏫 Cipta Ajar AI
-- **Description:** An intelligent web application designed as an AI assistant for educators in Indonesia. This project aims to drastically reduce teachers' administrative workload by automating the creation of complex, curriculum-compliant teaching materials.
-- **Key Features:**
-    - **Complete Teaching Material Generation:** Capable of generating 4 crucial types of documents: Teacher Enrichment Materials, structured Teaching Modules, Student Worksheets, and Question Banks.
-    - **Dynamic & Customizable Input:** Users can customize the output in detail based on the educational level (Elementary, Junior High, High School/Vocational), grade, subject, topic, and even precise lesson hour allocations.
-    - **Professional Interface:** Built with a clean UI/UX, featuring elegant notifications and practical features like "Copy Text" and "Download" for each document.
+- **Description:** Berawal dari identifikasi inefisiensi administrasi guru akibat perubahan kurikulum, saya memimpin pengembangan aplikasi AI ini untuk mengotomatisasi 4 dokumen ajar (Materi, Modul, Soal, LKPD).
+- **Poin Utama:**
+    - **Validasi Dampak (Metrik):** Terbukti (data survei) menghemat >95% waktu administrasi guru (dari rata-rata >4 jam menjadi <15 menit).
+    - **Validasi Kepemimpinan (IHT):** Dipresentasikan sebagai Narasumber resmi di In-House Training (IHT) SMPN 3 Lakbok untuk melatih seluruh staf guru.
+    - **Manajemen Produk (Peran):** Merancang solusi web satu halaman (Gemini API) dan mengelola keseluruhan proses dari ide, desain, eksekusi teknis hingga validasi 7 guru pengguna aktif.
 - **Tech Stack:** `Next.js`, `React`, `Tailwind CSS`, `Gemini API`
 - **[➡️ LIVE DEMO ⬅️](https://ciptaajar-denasurya.vercel.app/)**
-- **[View Code](https://github.com/denasurya/Cita-Ajar-demo-01)**
 
 ---
 
 ### 🗣️ VOCALITY - AI Voice Training
-- **Description:** An interactive web application to improve English speaking skills using AI, tailored for junior high school students. This application uses a secure architecture where the Google Gemini API key is never exposed on the frontend. All AI requests are processed through a secure serverless function on Vercel.
-- **Key Features:**
-    - **Dual Practice Modes:** "Reading Practice" for fluency and "Image Description" for spontaneous speaking.
-    - **Dynamic Content:** Practice texts and images are generated in real-time by the Google Gemini API.
-    - **Comprehensive Assessment:** The AI provides a score and in-depth feedback on the user's voice recording, covering aspects like pronunciation, grammar, and vocabulary.
-    - **Audio Benchmark:** Users can listen to the correct pronunciation of the text at an adjustable speed, powered by the Web Speech API.
+- **Description:** Mengembangkan aplikasi AI interaktif (berbasis ide Kepala Sekolah) untuk melatih pelafalan Bahasa Inggris guna mengatasi masalah kecemasan berbicara (84% siswa) dan kurangnya feedback personal.
+- **Poin Utama:**
+    - **Hasil Validasi (32 Siswa):** Terbukti secara statistik (p<0.05) menaikkan skor rata-rata kemampuan siswa dari 62.50 menjadi 78.75.
+    - **Kredensial::** Makalah terpilih dan dipresentasikan di The 16th Annual International Symposium of Foreign Language Learning (AISOFOLL).
+    - **Manajemen Produk (Peran):** Menerjemahkan visi stakeholder (Kepala Sekolah) dengan merancang UI/UX dan memimpin eksekusi teknis dalam sebuah kolaborasi R&D model 4D.
 - **Tech Stack:** `HTML5`, `CSS3`, `JavaScript (ES6+)`, `Vercel Serverless Functions`, `Gemini API`, `MediaRecorder API`
 - **[➡️ LIVE DEMO ⬅️](https://vocality-training.vercel.app/)**
-- **[View Code](https://github.com/denasurya/vocaliti-final)**
-
-## 🛠️ My Tech Stack
-
--   **Frontend:** `React` `Next.js` `TypeScript` `JavaScript (ES6+)` `HTML5` `CSS3` `Tailwind CSS`
--   **Backend & Blockchain:** `Solidity` `Hardhat` `Ethers.js` `Next.js API Routes`
--   **AI & APIs:** `Google Gemini API` `Leonardo AI API` `IPFS`
--   **Tools & Deployment:** `Git` `GitHub` `VS Code` `Remix IDE` `Vercel` `Node.js`
 
 ---
 
-## 📫 Let's Connect!
+### Web Profile Portofolio
+- **Description:** Merancang dan membangun website portofolio pribadi (website ini) untuk tujuan personal branding strategis, mengelola proses pengembangan dari konsep hingga deployment.
+- **Poin Utama:**
+    - **Strategi PM:** Dirancang sebagai 'Studi Kasus' visual untuk membuktikan dampak (metrik & validasi), bukan hanya galeri proyek.
+    - **Eksekusi 'Resourceful':** Dikelola dan dieksekusi dari 0 ke 1 (ide, desain, deploy) menggunakan AI (Gemini) sebagai 'developer' resource.
+    - **Sinkronisasi Penuh:** 100% sinkron dengan narasi CV dan GitHub untuk menciptakan cerita personal branding yang konsisten sebagai Product Lead (AI & Edutech).
+- **Tech Stack:** `Next.js`, `React`, `Tailwind CSS`, `Vercel`
+- **[➡️ LIVE DEMO ⬅️](https://denasuryagumilah.vercel.app/)**
 
-I'm currently seeking remote opportunities where I can contribute to innovative projects in the AI or Web3 space.
+
+## 🛠️ KEMAMPUAN UTAMA
+
+-   **Product Management:** `R&D Collaboration` `User Research (Need Analysis)` `Product Validation (User Testing)` `Product Design (UI/UX)` `User Empathy` `Stakeholder Communication` `Agile/Scrum Basics`
+-   **Teknologi Inti (AI):** `AI Product Development` `Generative AI (Google Gemini API)` `API Integration` `Prompt Engineering`
+-   **Implementasi Stack Teknologi:** `VS Code` `GitHub` `TypeScript` `Next.js` `Vercel` `Node.js` `Google Forms (Survey)` `Git` `Figma (Basic)`  
+
+---
+
+## 📫 Kontak
+
+Saat ini saya mencari peran di tim Produk Edutech untuk membangun solusi yang berdampak nyata bagi pendidikan. Jangan ragu untuk menghubungi saya jika anda tertarik untuk berkolaborasi.
 
 -   **LinkedIn:** www.linkedin.com/in/dena-surya-gumilah-b24030386
 -   **E-Mail:** Denakerja@gmail.com
