@@ -30,7 +30,7 @@ Visioner Produk dengan latar belakang Pendidik. Berpengalaman memimpin 2 produk 
 
 ---
 
-### Web Profile Portofolio
+### 🌐 Web Profile Portofolio
 - **Description:** Merancang dan membangun website portofolio pribadi (website ini) untuk tujuan personal branding strategis, mengelola proses pengembangan dari konsep hingga deployment.
 - **Poin Utama:**
     - **Strategi PM:** Dirancang sebagai 'Studi Kasus' visual untuk membuktikan dampak (metrik & validasi), bukan hanya galeri proyek.
